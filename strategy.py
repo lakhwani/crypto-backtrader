@@ -1,7 +1,7 @@
 import backtrader
 
 #Compares current day and must be less than prev day
-#Compares prev day with previous day and if prev < prevprev
+#Compares prev day with its previous day and if prev < prevprev
 #-> buy considering buying dip and checking if profit long-term
 
 class TestStrategy(backtrader.Strategy):
